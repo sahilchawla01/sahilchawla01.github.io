@@ -26,6 +26,35 @@ section {
   display: flex;
 }
 
+.navbar {
+  background-color: darkslategrey;
+}
+
+.navbar-collapse * a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-collapse * a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar-collapse * a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #fff;
+  cursor: default;
+}
+
+.navbar-nav {
+  justify-content: flex-end;
+}
+
 nav {
   overflow: hidden;
 }
@@ -52,10 +81,14 @@ nav a {
 
 section h2 {
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 10vh auto;
   text-align: center;
   font-size: 1.75em;
+}
+
+section p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #about-me {
@@ -84,10 +117,36 @@ section h2 {
 
 .portfolio-container div {
   background-color: red;
-  ;
 }
 
-.contact-container {
+#contact-me {
+  width: 70vw;
+  margin: 0 auto 0 auto;
+}
+
+#contact-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  height: 20vh;
+}
+
+.contact-item {
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#footer {
+  background-color: darkslategrey;
+  margin-bottom: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer h4 {
+  color: #fff;
 }

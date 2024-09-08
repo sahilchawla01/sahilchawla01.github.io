@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <header id="topnav">
+  <!-- <header id="topnav">
     <div class="inner">
       <span>Sahil Chawla | Gameplay and UI Programmer</span>
       <nav role='navigation'>
@@ -25,12 +25,44 @@
           <li><a href='#'>About</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="assets/Sahil_Chawla_Resume_09-05-24.pdf" target="_blank">Resume</a></li>
-          <li><a href="#">Github Profile</a></li>
+          <li><a href="https://github.com/sahilchawla01" target="_blank">Github Profile</a></li>
           <li><a href="#">Contact Me</a></li>
         </ul>
       </nav>
     </div>
-  </header>
+  </header> -->
+
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/BrandIcon.png" alt="" width="30" height="30">
+        Sahil Chawla's Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="assets/Sahil_Chawla_Resume_09-05-24.pdf" target="_blank">Resume</a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://github.com/sahilchawla01" target="_blank">Github Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <section id="about-me">
     <h2>About Me</h2>
@@ -58,18 +90,22 @@
   <section id="contact-me">
     <h2>Contact Me!</h2>
     <div id="contact-container">
-      <span>
+      <div class="contact-item">
         <img src="" alt="">
         <span>Email</span>
         <span><a href="">sahilchawla2312@gmail.com</a></span>
-      </span>
-      <span>
+      </div>
+      <div class="contact-item">
         <img src="" alt="">
         <span>Phone Number</span>
         <span>(678) 670-4960</span>
-      </span>
+      </div>
     </div>
+  </section>
 
+  <!-- Footer -->
+  <section class="container-fluid" id="footer">
+    <h4>Thank you for visiting my portoflio website!</h3>
   </section>
 
 </body>
