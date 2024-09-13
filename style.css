@@ -83,7 +83,7 @@ nav a {
   transition: 0.3s all;
 }
 
-section h2 {
+section #section-title {
   width: 50%;
   margin: 0 auto 10vh auto;
   text-align: center;
@@ -203,4 +203,29 @@ section p {
   display: flex;
   width: 50%;
   justify-content: space-evenly;
+}
+
+#portfolio-video {
+  width: 90vw;
+  height: 80vh;
+  margin: 20vh auto 0 auto;
+  text-align: center;
+}
+
+#portfolio-video iframe {
+  width: 70%;
+  height: 80%;
+}
+
+#portfolio-video h5 {
+  margin: 30px 0 30px 0;
+}
+
+#portfolio-content {
+  margin: 30px auto 0 auto;
+  width: 90vw;
+}
+
+.portfolio-content-text {
+  font-size: 1.2em;
 }
