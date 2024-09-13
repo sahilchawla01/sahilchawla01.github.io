@@ -189,3 +189,18 @@ section p {
   color: #fff;
   margin: 0;
 }
+
+
+/* PORTFOLIO PAGE*/
+#portfolio-title {
+  width: 90vw;
+  margin: 20vh auto 0 auto;
+  text-align: center;
+}
+
+#portfolio-link {
+  margin: 10vh auto 10vh auto;
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
