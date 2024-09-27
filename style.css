@@ -36,6 +36,7 @@ section {
 
 .navbar-collapse * a {
   color: white;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 
@@ -83,11 +84,11 @@ nav a {
   transition: 0.3s all;
 }
 
+
 section #section-title {
   width: 50%;
   margin: 0 auto 10vh auto;
-  text-align: center;
-  font-size: 1.75em;
+  text-align: center;;
 }
 
 section p {
@@ -123,10 +124,6 @@ section p {
   background-color: red;
 } */
 
-.portfolio-container {
-  height: 100vh;
-  ;
-}
 
 .portfolio-grid {
   height: 100%;
@@ -166,6 +163,7 @@ section p {
   display: flex;
   justify-content: space-around;
   height: 20vh;
+  font-size: 1.2rem;
 }
 
 .contact-item {
@@ -207,8 +205,8 @@ section p {
 
 #portfolio-video {
   width: 90vw;
-  height: 80vh;
-  margin: 20vh auto 0 auto;
+  /* height: 80vh; */
+  margin: 15vh auto 0 auto;
   text-align: center;
 }
 
