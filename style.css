@@ -205,8 +205,8 @@ section p {
 
 #portfolio-video {
   width: 90vw;
-  /* height: 80vh; */
-  margin: 15vh auto 0 auto;
+  height: 80vh;
+  margin: 5vh auto 5vh auto;
   text-align: center;
 }
 
