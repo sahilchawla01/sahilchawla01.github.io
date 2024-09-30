@@ -254,7 +254,10 @@ section p {
   width: 90vw;
   height: 80vh;
   margin: 5vh auto 5vh auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #portfolio-video iframe {
@@ -269,8 +272,37 @@ section p {
 #portfolio-content {
   margin: 30px auto 0 auto;
   width: 90vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .portfolio-content-text {
   font-size: 1.2em;
+}
+
+.portfolio-page-item-tchstk
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+
+.portfolio-page-tchkstk-item {
+  background-color: rgb(229, 126, 126);
+  border: 0.2vw solid rgb(229, 126, 126);
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+
+.portfolio-page-tchstk-language {
+  background-color: rgb(107, 211, 224);
+  border: 0.2vw solid rgb(107,
+      211,
+      224);
 }
