@@ -143,8 +143,8 @@ section p {
 {
   position: relative;
   display: flex;
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
 }
 
 .portfolio-item img {
@@ -168,7 +168,7 @@ section p {
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 2.0vw;
   font-style: oblique;
   text-shadow:
       1px 1px 0 #000,
@@ -177,6 +177,30 @@ section p {
       1px -1px 0 #000;
 }
 
+.portfolio-item-tchstk
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: fit-content;
+}
+
+.tchkstk-item
+{
+  background-color: rgb(229, 126, 126);
+  border: 0.2vw solid rgb(229, 126, 126);
+  border-radius: 15px;
+  font-size: 1vw;
+}
+
+.tchstk-language
+{
+  background-color: rgb(107, 211, 224);
+    border: 0.2vw solid rgb(107,
+      211,
+      224);
+}
 #contact-me {
   width: 70vw;
   margin: 0 auto 0 auto;
