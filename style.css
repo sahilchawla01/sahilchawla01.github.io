@@ -129,12 +129,22 @@ section p {
   height: 100%;
 }
 
-.portfolio-item:hover img {
+.portfolio-item a:hover img {
   opacity: 0.3;
 }
 
-.portfolio-item:hover div {
+.portfolio-item a:hover span
+{
   opacity: 1;
+}
+
+
+.portfolio-item a
+{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 .portfolio-item img {
@@ -144,14 +154,27 @@ section p {
   height: auto;
   transition: 0.5s ease-out;
   opacity: 1;
+  z-index: -100;
 }
 
 .item-hover {
-  transition: 0.5s ease-out;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition: opacity 0.2s ease-out;
   opacity: 0;
-  width: 70%;
-  margin: 0 auto 0 auto;
   color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-style: oblique;
+  text-shadow:
+      1px 1px 0 #000,
+      -1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000;
 }
 
 #contact-me {
