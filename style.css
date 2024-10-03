@@ -244,16 +244,28 @@ section p {
 }
 
 #portfolio-link {
-  margin: 10vh auto 10vh auto;
+  margin: 20px auto 0 auto;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1vh;
+}
+#portfolio-link-content {
+  margin: 0;
   display: flex;
   width: 50%;
   justify-content: space-evenly;
+  padding: 2.5% 0;
 }
 
 #portfolio-video {
-  width: 90vw;
-  height: 80vh;
-  margin: 5vh auto 5vh auto;
+  /* width: 90vw; */
+  width: 65vw;
+  height: 50vh; 
+  margin: 0 auto 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -261,8 +273,11 @@ section p {
 }
 
 #portfolio-video iframe {
-  width: 70%;
-  height: 80%;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
 }
 
 #portfolio-video h5 {
@@ -270,9 +285,10 @@ section p {
 }
 
 #portfolio-content {
-  margin: 30px auto 0 auto;
+  margin: 0 auto 0 auto;
   width: 90vw;
-  height: 20vh;
+  height: auto;
+  /* height: 20vh; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -282,15 +298,28 @@ section p {
   font-size: 1.2em;
 }
 
+#portfolio-page-tchstk-h
+{
+  font-weight: 400;
+  margin: 2vh 0 0 0;
+}
+
+#portfolio-work
+{
+  margin-top: 2.5vh;
+}
+
 .portfolio-page-item-tchstk
 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: center;
+  width: 50vw;
   height: fit-content;
+  margin: 0 auto 0 auto;
+  padding-top: 1%;
 }
 
 .portfolio-page-tchkstk-item {
@@ -305,4 +334,9 @@ section p {
   border: 0.2vw solid rgb(107,
       211,
       224);
+}
+
+#portfolio-page-brief
+{
+  margin: 5vh 0 5vh 0;
 }
