@@ -182,6 +182,7 @@ section p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding: 2.5% 0;
   width: 100%;
   height: fit-content;
 }
