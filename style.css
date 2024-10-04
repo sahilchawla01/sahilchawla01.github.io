@@ -240,7 +240,7 @@ section p {
 /* PORTFOLIO PAGE*/
 #portfolio-title {
   width: 90vw;
-  margin: 20vh auto 0 auto;
+  margin: 10vh auto 0 auto;
   text-align: center;
 }
 
@@ -253,6 +253,23 @@ section p {
   flex-direction: column;
   align-items: center;
   row-gap: 1vh;
+}
+
+#portfolio-link-click-text
+{
+  text-decoration: none;;
+}
+
+#portfolio-link-click-text h3
+{
+  text-decoration: none;
+  /* color: rgb(135, 135, 248); */
+  color: white;
+  border: 5px solid darkslategrey;
+  background-color: darkslategrey;
+  border-radius: 20px;
+  padding: 5px;
+  /* border-color: rgb(135, 135, 248); */
 }
 #portfolio-link-content {
   margin: 0;
