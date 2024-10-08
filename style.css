@@ -193,6 +193,7 @@ section p {
   border: 0.2vw solid rgb(229, 126, 126);
   border-radius: 15px;
   font-size: 1vw;
+  padding: 2%;
 }
 
 .tchstk-language
@@ -357,4 +358,9 @@ section p {
 #portfolio-page-brief
 {
   margin: 5vh 0 5vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* row-gap: 20px; */
 }

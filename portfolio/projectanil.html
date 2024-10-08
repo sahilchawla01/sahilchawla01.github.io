@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahil Chawla's Portfolio | Project Anil</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAV BAR -->
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../assets/BrandIcon.png" alt="" width="30" height="30">
+        Sahil Chawla's Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html#about-me">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#portfolio-display">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../assets/Sahil_Chawla_Resume_09-05-24.pdf" target="_blank">Resume</a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://github.com/sahilchawla01" target="_blank">Github Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id = "portfolio-body">
+  <section id="portfolio-title">
+    <h1>Project Anil</h1>
+    <h4 id="portfolio-page-tchstk-h">Tech Stack</h3>
+      <div class="portfolio-page-item-tchstk">
+        <span class="portfolio-page-tchkstk-item portfolio-page-tchstk-language">C++</span>
+        <span class="portfolio-page-tchkstk-item">Unreal Engine 5.3</span>
+        <span class="portfolio-page-tchkstk-item">Azure Repos</span>
+        <span class="portfolio-page-tchkstk-item">Git</span>
+      </div>
+      <section id="portfolio-page-brief">
+        <h3><u>Role</u>: Founder and Lead Game Developer</h3>
+        <h3><u>Company</u>: Bobble Head Studios</h3>
+        <h3><u>Duration</u>: August 2023 - July 2024</h3>
+        <p style="font-size: 1.5rem; margin: 5% 10% 0 10%;">An upcoming horror story-driven single-player project under the banner of Bobble Head Studios. As one of the founders of the firm, I focused on the technology by engineering the game in Unreal Engine 5.3 using C++.</p>
+      </section>
+  </section>
+
+  <section id="portfolio-video"> 
+    <iframe src="https://www.youtube.com/embed/RbuPPHRW5ho?si=6nqokfm9L0FlvIhj" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
+  <!-- Tech Stack & Responsibilities -->
+  <section id="portfolio-content">
+    <div id="portfolio-work">
+      <h2>Responsibilities:</h2>
+      <ul>
+        <li class="portfolio-content-text">
+          Solely led the programming of an unreleased project, alongside 2 designers; responsible for building the user interface,
+          enemy AI, interaction system, UI event system, dynamic cinematics architecture, and player movement.
+        </li>
+        <li class="portfolio-content-text">
+          Coded an event system to spawn temporary actors that trigger UI prompts, sound effects, volume changes, and damage
+          events; removing redundancy, and streamlined the process to construct gameplay events.
+        </li>
+        <li class="portfolio-content-text">
+          Exposed interactable actors’ events to blueprints that fire upon and after interaction with the actor, enabling
+          designer-friendly tools that allowed rapid iteration without code-level changes, reducing iteration time by 50%.
+        </li>
+        <li class="portfolio-content-text">
+          Designed a blackboard tree for a non-playable character (NPC); integrated idle and attack animations, player
+          searching, and hitbox detection, creating an NPC that chases and attacks the player.
+        </li>
+        <li class="portfolio-content-text">
+          Built the UI and the functionality for the main and in-game menus along with video, audio, and control settings.
+        </li>
+        <li class="portfolio-content-text">
+          Implemented a save system for menu settings that would save data in real-time when a setting would change.
+        </li>
+      </ul>
+    </div>
+    </div>
+
+  </section>
+
+</body>
+
+</html>
