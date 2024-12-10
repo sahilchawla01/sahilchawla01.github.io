@@ -234,12 +234,19 @@ section p {
   margin-bottom: 0;
   height: 100px;
   display: flex;
+  flex-direction: column;
+  row-gap: 5px;
   justify-content: center;
   align-items: center;
 }
 
 #footer h4 {
   color: #fff;
+  margin: 0;
+}
+
+#footer h6 {
+  color: #d8d8d8;
   margin: 0;
 }
 
