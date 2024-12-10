@@ -160,9 +160,9 @@ section p {
 
 .item-hover {
   width: 100%;
-  height: 50%;
+  height: auto;
   position: absolute;
-  top: 50%;
+  top: 37.5%;
   left: 0;
   transition: opacity 0.2s ease-out;
   opacity: 0;
@@ -171,6 +171,7 @@ section p {
   justify-content: center;
   font-size: 2.0vw;
   font-style: oblique;
+  text-align: center;
   text-shadow:
       1px 1px 0 #000,
       -1px 1px 0 #000,
@@ -345,9 +346,9 @@ section p {
 
 .portfolio-page-tchkstk-item {
   background-color: rgb(229, 126, 126);
-  border: 0.2vw solid rgb(229, 126, 126);
-  border-radius: 15px;
-  font-size: 1.5rem;
+  border: 0.3vw solid rgb(229, 126, 126);
+  border-radius: 10px;
+  font-size: 1.25vw;
 }
 
 .portfolio-page-tchstk-language {

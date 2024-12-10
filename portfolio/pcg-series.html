@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Infiltration</title>
+  <title>Procedural Content Generation Series</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="../style.css">
@@ -52,46 +52,60 @@
 
   <div id = "portfolio-body">
   <section id="portfolio-title">
-    <h1>Infiltration</h1>
+    <h1>Procedural Content Generation Series</h1>
     <h4 id="portfolio-page-tchstk-h">Tech Stack</h3>
       <div class="portfolio-page-item-tchstk">
-        <span class="portfolio-page-tchkstk-item portfolio-page-tchstk-language">C++</span>
-        <span class="portfolio-page-tchkstk-item">Unreal Engine 5.0</span>
+        <span class="portfolio-page-tchkstk-item portfolio-page-tchstk-language">C#</span>
+        <span class="portfolio-page-tchkstk-item">Unity</span>
       </div>
       <section id="portfolio-page-brief">
-        <h3>Solo Project</h3>
+        <h3>Solo Projects</h3>
+        <p style="font-size: 1.5rem; margin: 0 10% 0 10%;">This series of projects are from the course CS8803 Procedural Content Generation that I undertook at Georgia Institute of Technology. The projects focus on utilizing procedural techniques to generate 3D assets/content. These projects use an array of techniques including Flood Fill Algorithm, Perlin Noise, Cellular Automata, Random Numbers, Implict Surfaces, Marching Cube Algorithm, and Reynold's Flocking Principles to perform their respective tasks.</p>
       </section>
   </section>
 
+  <h4 style="text-align: center;">Project 1: Dungeons/Caves</h4>
   <section id="portfolio-video"> 
-    <iframe src="https://www.youtube.com/embed/m4ypVJCfOYY?si=2n29TBBe0ZYvSsJx" title="YouTube video player"
+    <iframe src="https://www.youtube.com/embed/t2ippQN-x-k?si=meH6ZROE_VjkkKbh" title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </section>
-
-  <!-- Tech Stack & Responsibilities -->
-  <section id="portfolio-content">
-    <div id="portfolio-work">
-      <h2>Responsibilities:</h2>
-      <ul>
-        <li class="portfolio-content-text">
-          Solely developed a third-person shooter demo, implementing character movement with animations, a raytraced shooting mechanism, a user interface, a health system, and a win/lose state.
-        </li>
-        <li class="portfolio-content-text">
-          Designed an enemy AI controller integrating - movement animations, player chasing, player searching, and shooting at the player.
-        </li>
-      </ul>
-    </div>
-    </div>
+  <p style="font-size: 1.4rem; margin: 0 15% 0 15%;">Project 1 deals with creating a 3D procedural dungeon using a grid-based approach; each tile describing either a room or a wall. Multiple steps of Cellular Automata is applied to the grid to ensure a cave-like appearance is generated in the grid. Using the flood-fill algorithm, the largest region is found, and the other disconnected regions' empty space is filled up. Finally, this grid is used to create a 3D dungeon by placing floors and walls where appropriate.</p>
+    <br><br>
+    <h4 style="text-align: center;">Project 2: Procedural Buildings</h4>
+  <section id="portfolio-video">
+    <iframe src="https://www.youtube.com/embed/4aD5AORhE0M?si=aqXn_Ku3IVov6G-y" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+ <p style="font-size: 1.4rem; margin: 0 15% 0 15%;">Project 2's goal is to create procedural buildings based on a few fundamental configurations in the form of a grid. These configurations include a building Footprint, and Vertical Profile. A variety of Footprints are predefined that describe whether a grid cell is empty or not. The Vertical Profile describes the height of each grid cell that the building can reach. Finally, based on a random seed, a Footprint and its corresponding Vertical Profile are selected. Based on the selected configuration, the 3d walls are placed. After placing the walls, I place windows, roofs, chimneys, and doors randomly based on appropriate locations (For Example: Doors on the ground floor).</p>
+  <br><br>
+  <h4 style="text-align: center;">Project 3: Vehicle (Implict Surfaces)</h4>
+  <section id="portfolio-video">
+    <iframe src="https://www.youtube.com/embed/iEE3rwsfecQ?si=q6MNICQ9ucoDKv1B" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+  <p style="font-size: 1.4rem; margin: 0 15% 0 15%;">Project 3 shifts its focus into creating a vehicle (particularly, a ship) using implicit surfaces. The body of the ship is described by an array of implicit functions that describe spheres, and rounded cuboids. These carefully placed implicit surfaces are "added" together using implicit surface boolean logic, and finally the Marching Cubes algorithm is run to create the mesh of the ship body.</p>
+    <br><br>
+  <h4 style="text-align: center;">Project 4: Bird Flocking Simulation</h4>
+  <section id="portfolio-video">
+    <iframe src="https://www.youtube.com/embed/jcv3Sn-SYho?si=0zmWX5mRCxu5cA-Y" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+  <p style="font-size: 1.4rem; margin: 0 15% 0 15%;">The goal of Project 4 is to learn about procedural animation based on particle systems. This assignment is based on the simulated flocking work of Craig Reynolds. There are 4 pivotal forces that are the principles of Reynold's flocking that include Centering Force, Wandering Force, Velocity Matching, and Collision Avoidance. The key to successfully simulate flocks is the implementation and balancing of these forces i.e. their weightages.</p>
+  <br><br>
 
   </section>
   <section id="portfolio-link">
-    <a href="https://drive.google.com/drive/folders/1p9bMEIg5bC0KgXPwl_fXRakbGrgMLpxK?usp=sharing" target="_blank"  id="portfolio-link-click-text">
-      <h3>Click me to get the game  build!</h3>
+      <h3>Contact me to get access to the repositories!</h3>
     </a>
   </section>
-
 </body>
 
 </html>
