@@ -142,7 +142,7 @@ section p {
 .portfolio-item a
 {
   position: relative;
-  display: flex;
+  display: flex; 
   /* width: 100%; */
   /* height: 100%; */
 }
@@ -151,6 +151,7 @@ section p {
   border: 2px none black;
   border-radius: 30px;
   max-width: 100%;
+  margin: 0 auto;
   height: auto;
   transition: 0.5s ease-out;
   opacity: 1;
@@ -181,19 +182,20 @@ section p {
 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding: 2.5% 0;
-  width: 100%;
-  height: fit-content;
+  justify-content: space-around;
+  padding: 1% 0;
+  width: 75%;
+  margin: 0 auto;
+  /* height: fit-content; */
 }
 
 .tchkstk-item
 {
   background-color: rgb(229, 126, 126);
-  border: 0.2vw solid rgb(229, 126, 126);
-  border-radius: 15px;
-  font-size: 1vw;
-  padding: 2%;
+  border: 0.3vw solid rgb(229, 126, 126);
+  border-radius: 10px;
+  font-size: 1.25vw;
+  /* padding: 2%; */
 }
 
 .tchstk-language
