@@ -187,7 +187,7 @@ section p {
   padding: 1% 0;
   width: 75%;
   margin: 0 auto;
-  /* height: fit-content; */
+
 }
 
 .tchkstk-item
@@ -195,7 +195,9 @@ section p {
   background-color: rgb(229, 126, 126);
   border: 0.3vw solid rgb(229, 126, 126);
   border-radius: 10px;
-  font-size: 1.25vw;
+  /* font-size: 1.25vw; */
+  /* text-align: center; */
+  font-size: clamp(1rem, 1.25vw, 1.5vw)
   /* padding: 2%; */
 }
 
@@ -348,7 +350,7 @@ section p {
   background-color: rgb(229, 126, 126);
   border: 0.3vw solid rgb(229, 126, 126);
   border-radius: 10px;
-  font-size: 1.25vw;
+  font-size: clamp(1rem, 1.25vw, 1.5vw)
 }
 
 .portfolio-page-tchstk-language {
