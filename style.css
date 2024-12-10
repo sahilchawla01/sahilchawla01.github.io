@@ -127,6 +127,7 @@ section p {
 
 .portfolio-grid {
   height: 100%;
+  margin: auto;
 }
 
 .portfolio-item a:hover img {
